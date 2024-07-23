@@ -1,0 +1,14 @@
+{
+  "name": "cloud-mashup",
+  "private": "true",
+  "scripts": {
+    "start": "concurrently \"wsrun --parallel start\""
+  },
+  "workspaces": [
+    "packages/*"
+  ],
+  "devDependencies": {
+    "concurrently": "^8.2.1",
+    "wsrun": "^5.2.4"
+  }
+}
